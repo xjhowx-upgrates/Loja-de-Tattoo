@@ -6,12 +6,13 @@ export default function Contact() {
 
   return (
     <section className="flex flex-col xl:flex-row items-center justify-between gap-24 p-11 xl:px-36 xl:pb-44">
+      {/* Texto e Botão de Contato */}
       <div className="flex flex-col text-center items-center xl:items-start xl:text-start gap-10 font-inter">
         <h1 className="text-text-headings font-black text-3xl">
           Entre em <span className="text-brand-color">Contato</span>
         </h1>
         <p className="text-text-typography font-light text-base max-w-lg mx-auto xl:mx-0">
-          Quer tirar dúvidas ou fazer um orçamento? Clique no botão abaixo e envie uma mensagem diretamente no WhatsApp. Estamos prontos para ajudar!
+          Tem alguma dúvida ou deseja fazer um orçamento? Clique no botão abaixo para falar diretamente no WhatsApp. Estamos à disposição para ajudar!
         </p>
 
         <a
@@ -31,11 +32,12 @@ export default function Contact() {
         </a>
       </div>
 
+      {/* Imagem de contato - visível apenas em telas maiores */}
       <Image
         src="/Imagem.svg"
         width={550}
         height={504}
-        alt="Foto do tatuador Jhow Tattoos"
+        alt="Foto do tatuador Jhow Tattoos, com o intuito de personalizar o atendimento de tatuagem"
         className="hidden xl:block"
       />
     </section>

@@ -8,8 +8,6 @@ export default function Navbar() {
         <p>
         Jhow <span className="text-brand-color">Tattoos</span>
         </p>
-        <p>Pinturas</p>
-        <p>Graffiti</p>
       </Link>
 
       <nav>

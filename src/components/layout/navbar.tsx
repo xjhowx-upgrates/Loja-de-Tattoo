@@ -8,7 +8,7 @@ export default function Navbar() {
         <p>
         Jhow <span className="text-brand-color">Tattoos</span>
         </p>
-      </Link>
+         </Link>
 
       <nav>
         <ul className="flex gap-4 text-lg lg:text-3xl">

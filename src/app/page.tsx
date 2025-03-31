@@ -9,9 +9,9 @@ export default function Home() {
 
       <div className="flex justify-end mr-0 lg:justify-between items-center font-inter font-black text-[40px] lg:text-7xl text-text-muted ml-9 lg:mx-36">
         <div className="absolute left-12 lg:static lg:left-0">
-          <p>EXPRESSE-SE</p> 
-          <p>INSPIRE-SE</p>
-          <p className="text-brand-color">& TATUE-SE</p>
+          <p>INSPIRE-SE</p> 
+          <p>EXPRESSE-SE</p>
+          <p className="text-brand-color">TATUE-SE</p>
         </div>
         <Image 
           src="/Portrait-mobile.svg"

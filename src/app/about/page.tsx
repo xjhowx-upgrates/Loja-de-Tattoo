@@ -3,10 +3,12 @@ import Image from "next/image";
 export default function About() {
   return (
     <section className="flex flex-col lg:flex-row items-center gap-24 p-11 pb-0 lg:px-36 lg:py-0">
+      {/* Texto sobre o tatuador */}
       <div className="flex flex-col text-center lg:text-start gap-10 font-inter">
         <h1 className="text-text-headings font-black text-3xl">
           Prazer, sou <span className="text-brand-color">Jhow Tattoos</span>
         </h1>
+<<<<<<< HEAD
         <div className="flex flex-col gap-4 text-text-typography font-light text-base">
         <p>
         Seja bem-vindo(a) ao site Jhow Tattoos! Com mais de 10 anos de experiência no universo da tatuagem, minha missão é transformar suas emoções e visões em arte corporal que reflete quem você é e tudo o que você ama.
@@ -21,8 +23,21 @@ export default function About() {
         </p>
         </div>
         <p className="font-island text-4xl">Jhow Tattoos</p>
+=======
+        <div className="flex flex-col gap-6 text-text-typography font-light text-base max-w-xl mx-auto lg:mx-0">
+          <p>
+            Bem-vindo(a) ao Jhow Tattoos! Com mais de 10 anos de experiência no universo da tatuagem, meu objetivo é transformar suas emoções em arte. Cada tatuagem que crio é uma representação única de quem você é, refletindo seus valores e paixões.
+          </p>
+          <p>
+            O processo de criação de uma tatuagem é uma verdadeira colaboração. Escuto atentamente as histórias e desejos dos meus clientes para garantir que cada peça seja exclusiva e pessoal. Desde traços delicados até composições robustas e coloridas, sempre busco superar suas expectativas.
+          </p>
+          <p>
+            No meu estúdio, a segurança e o conforto vêm em primeiro lugar. Utilizo apenas equipamentos esterilizados e de alta qualidade, seguindo rigorosos protocolos de higiene para garantir uma experiência segura e tranquila.
+          </p>
+>>>>>>> 0df84eca962b136a3072a8739f955c712f7306cc
         </div>
 
+<<<<<<< HEAD
         <Image
         src="/Image 2.svg"
         width={430}
@@ -38,6 +53,28 @@ export default function About() {
         alt="Foto do tatuador Jhow Tattoos"
         className="hidden lg:block -mb-14 z-10"
         />
+=======
+      {/* Imagens de perfil (responsivas) */}
+      <div className="flex gap-10">
+        {/* Imagem para telas pequenas */}
+        <Image
+          src="/Image 2.svg"
+          width={430}
+          height={541}
+          alt="Foto do tatuador Jhow Tattoos"
+          className="lg:hidden"
+        />
+
+        {/* Imagem para telas grandes */}
+        <Image
+          src="/Portrait-1.svg"
+          width={365}
+          height={796}
+          alt="Foto do tatuador Jhow Tattoos"
+          className="hidden lg:block -mb-14 z-10"
+        />
+      </div>
+>>>>>>> 0df84eca962b136a3072a8739f955c712f7306cc
     </section>
   );
 }

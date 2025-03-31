@@ -3,26 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "15.2.4",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "next": "^13.0.0",  // Atualizar para a versão estável mais recente do Next.js
+    "react": "^18.2.0",  // Versão estável mais recente do React
+    "react-dom": "^18.2.0",  // Versão estável mais recente do ReactDOM
     "react-icons": "^5.5.0"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "15.2.4",
-    "tailwindcss": "^4",
-    "typescript": "^5"
+    "@eslint/eslintrc": "^3.0.0",  // Verificar se esta versão está correta para o seu uso
+    "@tailwindcss/postcss7-compat": "^4.0.0", // Dependendo da versão do tailwindcss
+    "@types/node": "^20.0.0",  // Certifique-se de que seja a versão mais recente estável
+    "@types/react": "^18.0.0",  // Compatível com React 18
+    "@types/react-dom": "^18.0.0",  // Compatível com React 18
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^13.0.0",  // Atualizar para a versão compatível com Next.js 13
+    "tailwindcss": "^4.0.0",  // Certifique-se de que seja a versão mais recente
+    "typescript": "^5.0.0"
   }
 }

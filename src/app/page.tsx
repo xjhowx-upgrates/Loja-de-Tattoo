@@ -11,7 +11,7 @@ export default function Home() {
         <div className="absolute left-12 lg:static lg:left-0">
           <p>EXPRESSE-SE</p> 
           <p>INSPIRE-SE</p>
-          <p className="text-brand-color">E TATUE-SE</p>
+          <p className="text-brand-color"> E TATUE-SE</p>
         </div>
         <Image 
           src="/Portrait-mobile.svg"
